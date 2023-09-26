@@ -42,7 +42,7 @@ def inverseOfKey(key):
 
 plain_text = input("Enter the plain text: ").replace(" ", "").upper()
 
-key = np.array([[5, 8], [7, 3]])
+key = np.array([[5, 8], [2, 3]])
 
 # Encryption
 cipher_text, paddings = cipherDecipher(plain_text, key)
